@@ -1,0 +1,38 @@
+body  
+{  
+    margin: 0;  
+    padding: 0;  
+    background-color: #000;  
+    font-family: 'Arial';  
+}  
+textbox{  
+        width: 382px;  
+        overflow: hidden;  
+        margin: auto;  
+        margin: 20 0 0 450px;  
+        padding: 80px;  
+        background: #2a9fd6; 
+        border-radius: 3px ;  
+          
+}
+h1{
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-size: 36px;
+    background-image: url("KaraBgCroppedCopy.JPG");
+}
+h2{  
+    text-align: center;  
+    color: white;  
+    padding: 20px;  
+}  
+label{  
+    color: white;  
+    font-size: 17px;  
+}  
+  
+span{  
+    color: white;  
+    font-size: 17px;  
+}  
