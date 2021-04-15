@@ -48,9 +48,8 @@ ul li {
 
 /* Header/Blog Title */
 .header {
-  padding: 30px;
   text-align: center;
-  background: white;
+  background: black;
 }
 
 .header h1 {
@@ -79,7 +78,7 @@ ul li {
 
 /* Change color on hover */
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #00FFFF;
   color: black;
 }
 
