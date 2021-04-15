@@ -16,9 +16,10 @@ textbox{
           
 }
 h1{
+    height: 100px;
     text-align: center;
     color: white;
-    padding: 20px;
+    padding: 60px;
     font-size: 36px;
     background-image: url("KaraBgCroppedCopy.JPG");
 }
@@ -39,5 +40,10 @@ span{
 p {
     color: white;
     font-size: 17px;
-    margin-left: 80px;
-)
+    margin-left: 60px;
+}
+
+a {
+    margin-;eft: 60px;
+    color: #00FFFF;
+}
