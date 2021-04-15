@@ -25,6 +25,7 @@ p {
     color: white;
     font-size: 17px;
     margin-left: 60px;
+    display: block;
 }
 
 a {
@@ -146,12 +147,12 @@ ul li {
 div.gallery {
   margin: 5px;
   border: 1px solid #ccc;
-  float: left;
+  float: center;
   width: 180px;
 }
 
 div.gallery:hover {
-  border: 1px solid #777;
+  border: 1px solid #FF00FF;
 }
 
 div.gallery img {
@@ -162,4 +163,5 @@ div.gallery img {
 div.desc {
   padding: 15px;
   text-align: center;
+  color: white;
 }
