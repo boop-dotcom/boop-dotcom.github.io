@@ -50,7 +50,7 @@ ul li {
 }
 
 
-/* Header/Blog Title */
+/* Header Title */
 .header {
   text-align: center;
   background: black;
@@ -102,7 +102,7 @@ ul li {
   padding-left: 20px;
 }
 
-/* Fake image */
+/* Placeholder image */
 .fakeimg {
   background-color: #aaa;
   width: 100%;
@@ -147,9 +147,11 @@ ul li {
     width: 100%;
   }
 }
+
 /* gallery; images, hover, descriptions*/
 div.gallery {
   border: 1px solid #ccc;
+  height: 400px;
 }
 
 div.gallery:hover {
