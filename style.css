@@ -151,7 +151,6 @@ ul li {
 /* gallery; images, hover, descriptions*/
 div.gallery {
   border: 1px solid #ccc;
-  height: 400px;
 }
 
 div.gallery:hover {
