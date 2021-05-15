@@ -67,6 +67,13 @@
 <div class="header">
   <h1> Boop's website <3</h1>
 </div>
+    
+<div class="topnav">
+  <a href="#">Home</a>
+  <a href="#">Not home</a>
+  <a href="#">Woah cyan</a>
+  <a href="#" style="float:right">I'm always right</a>
+</div>
 
     
 <body data-new-gr-c-s-check-loaded="14.1010.0" data-gr-ext-installed="">
@@ -94,7 +101,7 @@
     <h2 class="font-adam text-4xl gradient-text">Who am I?</h2>
 </section>
 
-<script src="/vmt/js/particles.js" type="text/javascript"></script>
+<script src="particles.js-master" type="text/javascript"></script>
 <script>
     particlesJS.load('particles-js', 'js/particles.json', function () {
         console.log('particles json loaded...');
@@ -107,63 +114,6 @@
         <p class="m-2">Lena Website <3 </p>
         <p class="m-2">Website by Lenar</p>
     </footer>
-
-    <script>
-        function collapseActivities() {
-                let actv = $("#activities-dropdown");
-                if (actv.hasClass("block")) {
-                    actv.toggleClass("hidden");
-                    actv.toggleClass("block");
-                    $("#activities-down").toggleClass("hidden");
-                    $("#activities-up").toggleClass("hidden");
-                }
-        }
-        
-        $(function () {
-            $(document).scroll(function() {
-                let nav = $("#navbar");
-                nav.toggleClass('bg-white', $(this).scrollTop() > 0 || $("#nav-toggle-graphics").hasClass("opened"));
-                collapseActivities();
-            });
-
-            $('#flash_notifications').delay(4000).fadeOut(300);
-
-            $("#nav-toggle").click(function() {
-                let nav = $("#navbar");
-                if (!nav.hasClass("bg-white") || $(document).scrollTop() <= 0) {
-                    nav.toggleClass("bg-white");
-                }
-
-                let navl = $("#nav-links");
-                navl.toggleClass("block");
-                navl.toggleClass("hidden");
-                navl.toggleClass("top-hidden");
-
-                let graphics = $("#nav-toggle-graphics");
-                graphics.toggleClass("opened");
-            });
-
-            $("#activities-toggle").click(function() {
-                let actv = $("#activities-dropdown");
-                actv.toggleClass("block");
-                actv.toggleClass("hidden");
-
-                $("#activities-down").toggleClass("hidden");
-                $("#activities-up").toggleClass("hidden");
-            })
-        });
-
-        $("#home_link").addClass("md:gradient-underline");
-    </script>
-
-
-</body>
-<div class="topnav">
-  <a href="#">Home</a>
-  <a href="#">Not home</a>
-  <a href="#">Woah cyan</a>
-  <a href="#" style="float:right">I'm always right</a>
-</div>
 
 <div class="clearfix"></div>
 <div class="leftcolumn">
